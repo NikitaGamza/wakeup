@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jackbox</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="header__nav">
+            <img src="./public/img/burger.svg" alt="" class="header__nav__burger">
+            <a href="#" class="header__nav__main">
+                <img src="./public/img/logo.png" alt="logo" srcset="" class="header__nav__main__img">
+            </a>
+            <div class="header__nav__links">
+                <a href="#" class="header__nav__links__item">Games</a>
+                <a href="#" class="header__nav__links__item">How to play</a>
+                <a href="#" class="header__nav__links__item">Company</a>
+                <a href="#" class="header__nav__links__item" onclick="modalFunc()">sign up</a>
+            </div>
+            <span class="header__nav__hide"></span>
+        </nav>
+    </header>
+    <div class="modal hidden" id="modal" onclick="modalFunc()">
+        <div class="modal__block">
+            <h1 class="modal__block__head">Sign up</h1>
+            <input type="email" placeholder="Email address" class="far__info__inp">
+            <input type="password" placeholder="Password" class="far__info__inp">
+            <input type="password" placeholder="Repeat password" class="far__info__inp">
+            <button class="far__info__btn" onclick="()=>modalFunc()">Sign up</button>
+        </div>
+    </div>
+    <main class="root">
+        <section class="main">
+            <div class="main__content">
+                <img src="./public/img/main.png" alt="main" srcset="" class="main__content__img">
+                <button class="main__content__sign" onclick="modalFunc()">Sign Up</button>
+                <div class="main__content__logos">
+                    <img src="./public/img/amazon.svg" class="main__content__logos__item" alt="" srcset="">
+                    <img src="./public/img/apple.svg" class="main__content__logos__item" alt="" srcset="">
+                    <img src="./public/img/epicgames.svg" class="main__content__logos__item" alt="" srcset="">
+                    <img src="./public/img/google.svg" class="main__content__logos__item" alt="" srcset="">
+                    <img src="./public/img/hum.svg" class="main__content__logos__item" alt="" srcset="">
+                    <img src="./public/img/xbox.svg" class="main__content__logos__item" alt="" srcset="">
+                    <img src="./public/img/nintendo.svg" class="main__content__logos__item" alt="" srcset="">
+                    <img src="./public/img/playstation.svg" class="main__content__logos__item" alt="" srcset="">
+                    <img src="./public/img/steam.svg" class="main__content__logos__item" alt="" srcset="">
+                </div>
+            </div>
+        </section>
+        <section class="anons">
+            <a href="#" class="anons__link">New Game Announcement !!!</a>
+            <a href="#" class="anons__link">Spicy Details Inside !!!</a>
+        </section>
+        <section class="what">
+            <img src="./public/img/mayo.png" alt="mayo" class="what__img">
+            <div class="what__info">
+                <h1 class="what__info__head">Jackbox Games Official Website</h1>
+                <p class="what__info__text">Jackbox Games is a Chicago-based studio known for party games like Quiplash,
+                    Fibbage, Drawful, Trivia
+                    Murder Party and more! </p>
+                <p class="what__info__text"> Imagine a child from a social game like 'Charade'... a child who drops out
+                    of college, but later
+                    becomes
+                    a world-famous clown, respected by his family.</p>
+                <div class="what__list">
+                    <img src="./public/img/draw.jpg" alt="game" class="what__list__game" />
+                    <img src="./public/img/fid.jpg" alt="game" class="what__list__game" />
+                    <img src="./public/img/quip.jpg" alt="game" class="what__list__game" />
+                    <img src="./public/img/teek.jpg" alt="game" class="what__list__game" />
+                </div>
+            </div>
+        </section>
+        <section class="packs">
+            <h1 class="packs__head">Jackbox Party Packs</h1>
+            <p class="packs__text">Each activity pack includes five original games. We have created 10 different
+                packages so far. We create mixtapes designed to entertain everyone in the room, on Zoom, or streaming
+                via Twitch. Designing games, writing games, mini-games, stealth games... no partygoer is left behind.
+            </p>
+            <div class="packs__list">
+                <img src="./public/img/pp1.jpg" alt="pack" class="packs__list__game">
+                <img src="./public/img/pp2.jpg" alt="pack" class="packs__list__game">
+                <img src="./public/img/pp3.jpg" alt="pack" class="packs__list__game">
+                <img src="./public/img/pp4.jpg" alt="pack" class="packs__list__game">
+                <img src="./public/img/pp5.jpg" alt="pack" class="packs__list__game">
+                <img src="./public/img/pp6.jpg" alt="pack" class="packs__list__game">
+                <img src="./public/img/pp7.jpg" alt="pack" class="packs__list__game">
+                <img src="./public/img/pp8.jpg" alt="pack" class="packs__list__game">
+                <img src="./public/img/pp9.jpg" alt="pack" class="packs__list__game">
+                <img src="./public/img/pp10.jpg" alt="pack" class="packs__list__game">
+            </div>
+        </section>
+        <section class="blog">
+            <h1 class="blog__head">Jackbox Games Blog</h1>
+            <div class="blog__list">
+                <div class="article article_1">
+                    <div class="article__content">
+                        <h3 class="article__content__head">Best Games for Canada Day 2024</h3>
+                        <p class="article__content__date">June 28, 2024</p>
+                    </div>
+                </div>
+                <div class="article article_2">
+                    <div class="article__content">
+                        <h3 class="article__content__head">5 Games to Play When You're Late for Work Because You Have to
+                            Work on Labor Day</h3>
+                        <p class="article__content__date">June 26, 2024</p>
+                    </div>
+                </div>
+                <div class="article article_3">
+                    <div class="article__content">
+                        <h3 class="article__content__head">Celebrating Pride 2024: Jackbox Style</h3>
+                        <p class="article__content__date">June 21, 2024</p>
+                    </div>
+                </div>
+                <div class="article article_4">
+                    <div class="article__content">
+                        <h3 class="article__content__head">Jackbox Games is Coming to Brazil!</h3>
+                        <p class="article__content__date">June 20, 2024</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="blog__all">Visit the Jackbox Games Blog</a>
+        </section>
+        <section class="far">
+            <div class="far__main">
+                <h2 class="far__main__head">Gather Friends Near or Far</h2>
+                <img src="./public/img/flower.jpg" alt="flower" class="far__main__img">
+            </div>
+            <div class="far__info">
+                <h2 class="far__info__head">Jackbox Games are for Pals</h2>
+                <p class="far__info__text">5 Games to Play When You're Late for Work Because You Have to Work on Labor
+                    Day</p>
+                <h2 class="far__info__head">Follow us on Social Media</h2>
+                <div class="far__info__soc">
+                    <img src="./public/img/facebook.svg" alt="facebook">
+                    <img src="./public/img/instagram.svg" alt="insta">
+                    <img src="./public/img/reddit.svg" alt="reddit">
+                    <img src="./public/img/tiktok.svg" alt="tiktok">
+                    <img src="./public/img/twitter.svg" alt="twitter">
+                    <img src="./public/img/youtube.svg" alt="youtube">
+                </div>
+                <h2 class="far__info__head">Join our Newsletter</h2>
+                <p class="far__info__text">Stay up to date on everything Jackbox Games including news, updates, trailers
+                    and specials.</p>
+                <form action="" method="post">
+                    <input type="email" placeholder="Email address" class="far__info__inp">
+                    <button class="far__info__btn">Submit</button>
+                </form>
+            </div>
+        </section>
+        <section class="faq">
+            <img src="./public/img/chimp.jpg" alt="chimp" class="faq__img">
+            <div class="faq__info">
+                <h4 class="faq__info__head">Still Have Questions?</h4>
+                <p class="faq__info__text">We will do our best here! If you can't find what you're looking for, check
+                    out How to Play.</p>
+                <div class="faq__list">
+                    <div class="faq__list__quest" id="quest1" onclick="questOne()">
+                        <span class="faq__list__quest__text">What is Jackbox Games?</span>
+                        <span class="faq__list__quest__open">+</span>
+                    </div>
+                    <div id="ans1" class="answer">
+                        <p class="answer__text">Jackbox Games is the studio behind popular party games for popular games
+                            like UNKNOWN JACK,
+                            Quiplash, Fibbage, Drawful, Trivia Murder Party and more! Think of it as the child of
+                            traditional board games like “charades”… the kid who dropped out of college and later earned
+                            the respect of his parents by starting a music club. </p>
+                        <p class="answer__text"> You can learn about us through articles, publications, exchanges or
+                            social media. Maybe you
+                            heard about us from a friend. We are happy to meet you in any situation: we are here to make
+                            parties and meetings with fans unique, fun and unforgettable.</p>
+                    </div>
+
+                    <div class="faq__list__quest" id="quest2" onclick="questTwo()">
+                        <span class="faq__list__quest__text">What is a Party Pack?</span>
+                        <span class="faq__list__quest__open">+</span>
+                    </div>
+                    <div id="ans2" class="answer">
+                        <p class="answer__text">We create a variety of games designed to entertain everyone in the room
+                            via Zoom calls or Twitch streams. Designing games, writing games, mini-games, stealth
+                            games... no partygoer is left behind. </p>
+                        <p class="answer__text"> Every year since 2014 we release a new collection of games packaged as
+                            the Jackbox Party Pack. In each package you will find 5 different games that can accommodate
+                            1-8 players. If you have a lot of people in your group, then (1) we're happy to be popular
+                            and (2) most of our games get the crowd playing, meaning they can keep jumping and having
+                            fun! </p>
+                        <p class="answer__text">We also have special horror games like Drawful 2 that are available
+                            outside of party packs.</p>
+                    </div>
+                    <div class="faq__list__quest" id="quest3" onclick="questThree()">
+                        <span class="faq__list__quest__text">I purchased the party package! Do my friends or family need
+                            to do anything to play?</span>
+                        <span class="faq__list__quest__open">+</span>
+                    </div>
+                    <div id="ans3" class="answer">
+                        <p class="answer__text">All your players need is a phone or internet-enabled device! Take a look
+                            with us and you're sure to enjoy long-lasting eye contact: no apps or additional purchases
+                            required to play. They only need a mobile device; Internet access; and to see the game
+                            screen. </p>
+                    </div>
+                    <div class="faq__list__quest" id="quest4" onclick="questFour()">
+                        <span class="faq__list__quest__text">How do I get a Jackbox Game Started?</span>
+                        <span class="faq__list__quest__open">+</span>
+                    </div>
+                    <div id="ans4" class="answer">
+                        <p class="answer__text">You purchased the Party Pack. You've gathered your team. All you need is
+                            to start the game and play! Here we have helpful video tutorials and step-by-step
+                            instructions on how to get all your players hooked into the game. This page also includes
+                            information on how to access additional channels and options for each game. </p>
+                        <p class="answer__text"> The important thing is to ensure that everyone in your party (in person
+                            or remotely) can see and hear the game screen. This allows them to access room codes, work
+                            together, see what's going on in the game, and play together.</p>
+                    </div>
+                    <div class="faq__list__quest" id="quest5" onclick="questFive()">
+                        <span class="faq__list__quest__text">What should I do if I have problems playing the Jackbox
+                            game?</span>
+                        <span class="faq__list__quest__open">+</span>
+                    </div>
+                    <div id="ans5" class="answer">
+                        <p class="answer__text">We have a great website here with lots of tips and tricks. You can also
+                            donate tickets to our support team. They try to respond within 1-3 business hours. Holidays
+                            may last a little longer if we are affected. </p>
+                        <p class="answer__text"> However, our strong recommendation is that if a player's mobile device
+                            disconnects during gameplay... they should try updating their browser. Most of the time they
+                            meet right away. If not, please let us know. As we say: no partygoer is left behind.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="first">
+            <img src="./public/img/logo.png" alt="logo" class="first__logo">
+            <div class="first__soc">
+                <img src="./public/img/facebook.svg" alt="facebook" class="first__soc__img">
+                <img src="./public/img/instagram.svg" alt="insta" class="first__soc__img">
+                <img src="./public/img/reddit.svg" alt="reddit" class="first__soc__img">
+                <img src="./public/img/tiktok.svg" alt="tiktok" class="first__soc__img">
+                <img src="./public/img/twitter.svg" alt="twitter" class="first__soc__img">
+                <img src="./public/img/youtube.svg" alt="youtube" class="first__soc__img">
+            </div>
+        </div>
+        <hr />
+        <div class="second">
+            <span class="second__quote">© Copyright 2024 Jackbox Games. All rights reserved.</span>
+            <span class="second__docs">
+                <a href="#" class="second__docs__link">Terms of Service</a>
+                <a href="#" class="second__docs__link">Privacy Policy</a>
+            </span>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
